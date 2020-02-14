@@ -1,0 +1,7 @@
+*.swp
+*.swo
+*.swn
+.tmux/resurrect/tmux_resurrect*
+.tmux/plugins/tmp/*
+*.netrwhis*
+
