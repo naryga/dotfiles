@@ -4,4 +4,5 @@
 .tmux/resurrect/tmux_resurrect*
 .tmux/plugins/tmp/*
 *.netrwhis*
+.tmux/resurrect/last
 
