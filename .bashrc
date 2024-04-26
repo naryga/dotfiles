@@ -428,8 +428,8 @@ colors_tmux() {
 }
 
 # Process control.
-alias f='fg'
-alias j='jobs'
+# alias f='fg'
+# alias j='jobs'
 
 # ---------------------------------------------------------------------
 # ENVIRONMENT
@@ -454,13 +454,13 @@ fi
 test -d ~/.bash.d && for f in $(ls ~/.bash.d); do source ~/.bash.d/$f; done
 test -f ~/.bash_local && source ~/.bash_local
 
-export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
+# export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 
-export NVM_DIR="/Users/ngarza10/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
+# export NVM_DIR="/Users/ngarza10/.nvm"
+# [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
 
-export PATH=~/Library/Python/3.6/bin:$PATH
+# export PATH=~/Library/Python/3.6/bin:$PATH
 
 alias sing="echo 'SING! SIXpence'"
 
-export NLTK_DATA="/Users/ngarza10/src/NLT"
+# export NLTK_DATA="/Users/ngarza10/src/NLT"

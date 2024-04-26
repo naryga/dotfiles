@@ -5,4 +5,6 @@
 .tmux/plugins/tmp/*
 *.netrwhis*
 .tmux/resurrect/last
+.vim/
+.vim-old/
 
